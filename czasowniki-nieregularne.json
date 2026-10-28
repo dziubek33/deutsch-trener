@@ -1,0 +1,6852 @@
+{
+ "format": "deutsch-trener-projekt",
+ "wersja_formatu": 1,
+ "projekt": {
+  "id": "czasowniki-nieregularne",
+  "nazwa": "Czasowniki nieregularne",
+  "typ": "czasowniki",
+  "zrodlo": {
+   "plik": "dane/zrodla/czasowniki.pdf",
+   "opis": "Cornelsen „Grammatik aktiv B2/C1”, s. 261–264: Nachschlageliste: unregelmäßige Verben",
+   "metoda": "odczyt wizualny skanu (300 dpi, fragmenty po ok. 10 wierszy), dwa niezależne odczyty porównane automatycznie",
+   "uwaga_prawna": "skan ze znakiem wodnym wydawnictwa; dane tylko do użytku własnego (nie trafiają do paczki dla kolegi)"
+  },
+  "schemat": {
+   "pytanie": "infinitiv",
+   "pola": [
+    {
+     "id": "infinitiv",
+     "etykieta": "Infinitiv",
+     "rodzaj": "pytanie"
+    },
+    {
+     "id": "praesens",
+     "etykieta": "Präsens",
+     "podpowiedz": "3. os. l. poj. (er/es/sie/man)",
+     "rodzaj": "forma"
+    },
+    {
+     "id": "praeteritum",
+     "etykieta": "Präteritum",
+     "podpowiedz": "3. os. l. poj. (er/es/sie/man)",
+     "rodzaj": "forma"
+    },
+    {
+     "id": "perfekt",
+     "etykieta": "Perfekt",
+     "podpowiedz": "3. os. l. poj., razem z hat/ist",
+     "rodzaj": "perfekt"
+    }
+   ],
+   "tlumaczenia": {
+    "jezyk": "pl",
+    "wlaczone": false
+   }
+  },
+  "podgrupy": [
+   {
+    "id": "glowna",
+    "nazwa": "Lista główna"
+   },
+   {
+    "id": "hilfsverben",
+    "nazwa": "Hilfsverben"
+   },
+   {
+    "id": "modalverben",
+    "nazwa": "Modalverben"
+   }
+  ]
+ },
+ "akceptacja": {
+  "data": "2026-10-23",
+  "opis": "dane zaakceptowane przez użytkownika"
+ },
+ "karty": [
+  {
+   "id": "backen",
+   "klucz": "backen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 1
+   },
+   "tabela": {
+    "infinitiv": "backen",
+    "praesens": "bäckt/backt",
+    "praeteritum": "backte/buk (veraltet)",
+    "perfekt": "hat gebacken"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "backen",
+     "praesens": [
+      {
+       "forma": "bäckt"
+      },
+      {
+       "forma": "backt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "backte"
+      },
+      {
+       "forma": "buk",
+       "uwaga": "veraltet",
+       "veraltet": true
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebacken"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "beginnen",
+   "klucz": "beginnen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 2
+   },
+   "tabela": {
+    "infinitiv": "beginnen",
+    "praesens": "beginnt",
+    "praeteritum": "begann",
+    "perfekt": "hat begonnen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "beginnen",
+     "praesens": [
+      {
+       "forma": "beginnt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "begann"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat begonnen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "beissen",
+   "klucz": "beißen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 3
+   },
+   "tabela": {
+    "infinitiv": "beißen",
+    "praesens": "beißt",
+    "praeteritum": "biss",
+    "perfekt": "hat gebissen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "beißen",
+     "praesens": [
+      {
+       "forma": "beißt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "biss"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebissen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "bergen",
+   "klucz": "bergen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 4
+   },
+   "tabela": {
+    "infinitiv": "bergen",
+    "praesens": "birgt",
+    "praeteritum": "barg",
+    "perfekt": "hat geborgen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "bergen",
+     "praesens": [
+      {
+       "forma": "birgt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "barg"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geborgen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sich-besinnen",
+   "klucz": "sich besinnen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 5
+   },
+   "tabela": {
+    "infinitiv": "sich besinnen",
+    "praesens": "besinnt sich",
+    "praeteritum": "besann sich",
+    "perfekt": "hat sich besonnen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sich besinnen",
+     "praesens": [
+      {
+       "forma": "besinnt sich"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "besann sich"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat sich besonnen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "betruegen",
+   "klucz": "betrügen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 6
+   },
+   "tabela": {
+    "infinitiv": "betrügen",
+    "praesens": "betrügt",
+    "praeteritum": "betrog",
+    "perfekt": "hat betrogen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "betrügen",
+     "praesens": [
+      {
+       "forma": "betrügt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "betrog"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat betrogen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "bewegen",
+   "klucz": "bewegen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 7
+   },
+   "tabela": {
+    "infinitiv": "bewegen",
+    "praesens": "bewegt",
+    "praeteritum": "bewog (das bewog sie dazu, …)\nbewegte (sich körperlich bewegen)",
+    "perfekt": "hat bewogen\nhat bewegt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "das bewog sie dazu, …"
+     ],
+     "infinitiv": "bewegen",
+     "praesens": [
+      {
+       "forma": "bewegt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "bewog"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat bewogen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    },
+    {
+     "uwagi": [
+      "sich körperlich bewegen"
+     ],
+     "infinitiv": "bewegen",
+     "praesens": [
+      {
+       "forma": "bewegt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "bewegte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat bewegt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "beweisen",
+   "klucz": "beweisen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 8
+   },
+   "tabela": {
+    "infinitiv": "beweisen",
+    "praesens": "beweist",
+    "praeteritum": "bewies",
+    "perfekt": "hat bewiesen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "beweisen",
+     "praesens": [
+      {
+       "forma": "beweist"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "bewies"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat bewiesen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "bieten",
+   "klucz": "bieten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 9
+   },
+   "tabela": {
+    "infinitiv": "bieten",
+    "praesens": "bietet",
+    "praeteritum": "bot",
+    "perfekt": "hat geboten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "bieten",
+     "praesens": [
+      {
+       "forma": "bietet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "bot"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geboten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "binden",
+   "klucz": "binden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 10
+   },
+   "tabela": {
+    "infinitiv": "binden",
+    "praesens": "bindet",
+    "praeteritum": "band",
+    "perfekt": "hat gebunden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "binden",
+     "praesens": [
+      {
+       "forma": "bindet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "band"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebunden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "bitten",
+   "klucz": "bitten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 11
+   },
+   "tabela": {
+    "infinitiv": "bitten",
+    "praesens": "bittet",
+    "praeteritum": "bat",
+    "perfekt": "hat gebeten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "bitten",
+     "praesens": [
+      {
+       "forma": "bittet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "bat"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebeten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "bleiben",
+   "klucz": "bleiben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 12
+   },
+   "tabela": {
+    "infinitiv": "bleiben",
+    "praesens": "bleibt",
+    "praeteritum": "blieb",
+    "perfekt": "ist geblieben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "bleiben",
+     "praesens": [
+      {
+       "forma": "bleibt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "blieb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geblieben"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "braten",
+   "klucz": "braten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 13
+   },
+   "tabela": {
+    "infinitiv": "braten",
+    "praesens": "brät",
+    "praeteritum": "briet",
+    "perfekt": "hat gebraten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "braten",
+     "praesens": [
+      {
+       "forma": "brät"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "briet"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebraten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "brechen",
+   "klucz": "brechen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 14
+   },
+   "tabela": {
+    "infinitiv": "brechen",
+    "praesens": "bricht",
+    "praeteritum": "brach",
+    "perfekt": "hat/ist gebrochen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "brechen",
+     "praesens": [
+      {
+       "forma": "bricht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "brach"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebrochen"
+      },
+      {
+       "forma": "ist gebrochen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "brennen",
+   "klucz": "brennen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 15
+   },
+   "tabela": {
+    "infinitiv": "brennen",
+    "praesens": "brennt",
+    "praeteritum": "brannte",
+    "perfekt": "hat gebrannt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "brennen",
+     "praesens": [
+      {
+       "forma": "brennt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "brannte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebrannt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "bringen",
+   "klucz": "bringen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 16
+   },
+   "tabela": {
+    "infinitiv": "bringen",
+    "praesens": "bringt",
+    "praeteritum": "brachte",
+    "perfekt": "hat gebracht"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "bringen",
+     "praesens": [
+      {
+       "forma": "bringt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "brachte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gebracht"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "denken",
+   "klucz": "denken",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 17
+   },
+   "tabela": {
+    "infinitiv": "denken",
+    "praesens": "denkt",
+    "praeteritum": "dachte",
+    "perfekt": "hat gedacht"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "denken",
+     "praesens": [
+      {
+       "forma": "denkt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "dachte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gedacht"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "dringen",
+   "klucz": "dringen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 18
+   },
+   "tabela": {
+    "infinitiv": "dringen",
+    "praesens": "dringt",
+    "praeteritum": "drang",
+    "perfekt": "hat/ist gedrungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "dringen",
+     "praesens": [
+      {
+       "forma": "dringt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "drang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gedrungen"
+      },
+      {
+       "forma": "ist gedrungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "empfehlen",
+   "klucz": "empfehlen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 19
+   },
+   "tabela": {
+    "infinitiv": "empfehlen",
+    "praesens": "empfiehlt",
+    "praeteritum": "empfahl",
+    "perfekt": "hat empfohlen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "empfehlen",
+     "praesens": [
+      {
+       "forma": "empfiehlt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "empfahl"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat empfohlen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "entscheiden",
+   "klucz": "entscheiden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 20
+   },
+   "tabela": {
+    "infinitiv": "entscheiden",
+    "praesens": "entscheidet",
+    "praeteritum": "entschied",
+    "perfekt": "hat entschieden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "entscheiden",
+     "praesens": [
+      {
+       "forma": "entscheidet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "entschied"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat entschieden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "erschrecken",
+   "klucz": "erschrecken",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 21
+   },
+   "tabela": {
+    "infinitiv": "erschrecken",
+    "praesens": "erschreckt",
+    "praeteritum": "erschrak (sich selbst)\nerschreckte (eine andere Person)",
+    "perfekt": "ist erschrocken\nhat erschreckt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "sich selbst"
+     ],
+     "infinitiv": "erschrecken",
+     "praesens": [
+      {
+       "forma": "erschreckt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "erschrak"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist erschrocken"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    },
+    {
+     "uwagi": [
+      "eine andere Person"
+     ],
+     "infinitiv": "erschrecken",
+     "praesens": [
+      {
+       "forma": "erschreckt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "erschreckte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat erschreckt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23",
+    "pozycje": [
+     1
+    ]
+   }
+  },
+  {
+   "id": "essen",
+   "klucz": "essen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 22
+   },
+   "tabela": {
+    "infinitiv": "essen",
+    "praesens": "isst",
+    "praeteritum": "aß",
+    "perfekt": "hat gegessen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "essen",
+     "praesens": [
+      {
+       "forma": "isst"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "aß"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gegessen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "fahren",
+   "klucz": "fahren",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 23
+   },
+   "tabela": {
+    "infinitiv": "fahren",
+    "praesens": "fährt",
+    "praeteritum": "fuhr",
+    "perfekt": "hat/ist gefahren"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fahren",
+     "praesens": [
+      {
+       "forma": "fährt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "fuhr"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gefahren"
+      },
+      {
+       "forma": "ist gefahren"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "fallen",
+   "klucz": "fallen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 24
+   },
+   "tabela": {
+    "infinitiv": "fallen",
+    "praesens": "fällt",
+    "praeteritum": "fiel",
+    "perfekt": "ist gefallen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fallen",
+     "praesens": [
+      {
+       "forma": "fällt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "fiel"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gefallen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "fangen",
+   "klucz": "fangen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 25
+   },
+   "tabela": {
+    "infinitiv": "fangen",
+    "praesens": "fängt",
+    "praeteritum": "fing",
+    "perfekt": "hat gefangen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fangen",
+     "praesens": [
+      {
+       "forma": "fängt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "fing"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gefangen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "finden",
+   "klucz": "finden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 26
+   },
+   "tabela": {
+    "infinitiv": "finden",
+    "praesens": "findet",
+    "praeteritum": "fand",
+    "perfekt": "hat gefunden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "finden",
+     "praesens": [
+      {
+       "forma": "findet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "fand"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gefunden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "fliegen",
+   "klucz": "fliegen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 27
+   },
+   "tabela": {
+    "infinitiv": "fliegen",
+    "praesens": "fliegt",
+    "praeteritum": "flog",
+    "perfekt": "ist geflogen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fliegen",
+     "praesens": [
+      {
+       "forma": "fliegt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "flog"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geflogen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23",
+    "pozycje": [
+     4
+    ]
+   }
+  },
+  {
+   "id": "fliehen",
+   "klucz": "fliehen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 28
+   },
+   "tabela": {
+    "infinitiv": "fliehen",
+    "praesens": "flieht",
+    "praeteritum": "floh",
+    "perfekt": "ist geflohen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fliehen",
+     "praesens": [
+      {
+       "forma": "flieht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "floh"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geflohen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "fliessen",
+   "klucz": "fließen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 29
+   },
+   "tabela": {
+    "infinitiv": "fließen",
+    "praesens": "fließt",
+    "praeteritum": "floss",
+    "perfekt": "ist geflossen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fließen",
+     "praesens": [
+      {
+       "forma": "fließt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "floss"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geflossen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "fressen",
+   "klucz": "fressen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 30
+   },
+   "tabela": {
+    "infinitiv": "fressen",
+    "praesens": "frisst",
+    "praeteritum": "fraß",
+    "perfekt": "hat gefressen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "fressen",
+     "praesens": [
+      {
+       "forma": "frisst"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "fraß"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gefressen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "frieren",
+   "klucz": "frieren",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 31
+   },
+   "tabela": {
+    "infinitiv": "frieren",
+    "praesens": "friert",
+    "praeteritum": "fror",
+    "perfekt": "hat/ist gefroren"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "frieren",
+     "praesens": [
+      {
+       "forma": "friert"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "fror"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gefroren"
+      },
+      {
+       "forma": "ist gefroren"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "geben",
+   "klucz": "geben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 32
+   },
+   "tabela": {
+    "infinitiv": "geben",
+    "praesens": "gibt",
+    "praeteritum": "gab",
+    "perfekt": "hat gegeben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "geben",
+     "praesens": [
+      {
+       "forma": "gibt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "gab"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gegeben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "gehen",
+   "klucz": "gehen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 1,
+    "strona_ksiazki": 261,
+    "wiersz": 33
+   },
+   "tabela": {
+    "infinitiv": "gehen",
+    "praesens": "geht",
+    "praeteritum": "ging",
+    "perfekt": "ist gegangen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "gehen",
+     "praesens": [
+      {
+       "forma": "geht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "ging"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gegangen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "gelingen",
+   "klucz": "gelingen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 1
+   },
+   "tabela": {
+    "infinitiv": "gelingen",
+    "praesens": "gelingt",
+    "praeteritum": "gelang",
+    "perfekt": "ist gelungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "gelingen",
+     "praesens": [
+      {
+       "forma": "gelingt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "gelang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gelungen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "gelten",
+   "klucz": "gelten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 2
+   },
+   "tabela": {
+    "infinitiv": "gelten",
+    "praesens": "gilt",
+    "praeteritum": "galt",
+    "perfekt": "hat gegolten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "gelten",
+     "praesens": [
+      {
+       "forma": "gilt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "galt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gegolten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "geniessen",
+   "klucz": "genießen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 3
+   },
+   "tabela": {
+    "infinitiv": "genießen",
+    "praesens": "genießt",
+    "praeteritum": "genoss",
+    "perfekt": "hat genossen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "genießen",
+     "praesens": [
+      {
+       "forma": "genießt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "genoss"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat genossen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "geschehen",
+   "klucz": "geschehen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 4
+   },
+   "tabela": {
+    "infinitiv": "geschehen",
+    "praesens": "geschieht",
+    "praeteritum": "geschah",
+    "perfekt": "ist geschehen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "geschehen",
+     "praesens": [
+      {
+       "forma": "geschieht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "geschah"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geschehen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "gewinnen",
+   "klucz": "gewinnen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 5
+   },
+   "tabela": {
+    "infinitiv": "gewinnen",
+    "praesens": "gewinnt",
+    "praeteritum": "gewann",
+    "perfekt": "hat gewonnen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "gewinnen",
+     "praesens": [
+      {
+       "forma": "gewinnt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "gewann"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewonnen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "gleichen",
+   "klucz": "gleichen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 6
+   },
+   "tabela": {
+    "infinitiv": "gleichen",
+    "praesens": "gleicht",
+    "praeteritum": "glich",
+    "perfekt": "hat geglichen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "gleichen",
+     "praesens": [
+      {
+       "forma": "gleicht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "glich"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geglichen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "greifen",
+   "klucz": "greifen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 7
+   },
+   "tabela": {
+    "infinitiv": "greifen",
+    "praesens": "greift",
+    "praeteritum": "griff",
+    "perfekt": "hat gegriffen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "greifen",
+     "praesens": [
+      {
+       "forma": "greift"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "griff"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gegriffen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "halten",
+   "klucz": "halten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 8
+   },
+   "tabela": {
+    "infinitiv": "halten",
+    "praesens": "hält",
+    "praeteritum": "hielt",
+    "perfekt": "hat gehalten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "halten",
+     "praesens": [
+      {
+       "forma": "hält"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "hielt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gehalten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "haengen",
+   "klucz": "hängen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 9
+   },
+   "tabela": {
+    "infinitiv": "hängen",
+    "praesens": "hängt",
+    "praeteritum": "hing (ohne Akkusativobjekt)\nhängte (den Mantel)",
+    "perfekt": "hat gehangen\nhat gehängt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "ohne Akkusativobjekt"
+     ],
+     "infinitiv": "hängen",
+     "praesens": [
+      {
+       "forma": "hängt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "hing"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gehangen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    },
+    {
+     "uwagi": [
+      "den Mantel"
+     ],
+     "infinitiv": "hängen",
+     "praesens": [
+      {
+       "forma": "hängt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "hängte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gehängt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "heben",
+   "klucz": "heben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 10
+   },
+   "tabela": {
+    "infinitiv": "heben",
+    "praesens": "hebt",
+    "praeteritum": "hob",
+    "perfekt": "hat gehoben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "heben",
+     "praesens": [
+      {
+       "forma": "hebt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "hob"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gehoben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "heissen",
+   "klucz": "heißen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 11
+   },
+   "tabela": {
+    "infinitiv": "heißen",
+    "praesens": "heißt",
+    "praeteritum": "hieß",
+    "perfekt": "hat geheißen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "heißen",
+     "praesens": [
+      {
+       "forma": "heißt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "hieß"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geheißen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "helfen",
+   "klucz": "helfen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 12
+   },
+   "tabela": {
+    "infinitiv": "helfen",
+    "praesens": "hilft",
+    "praeteritum": "half",
+    "perfekt": "hat geholfen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "helfen",
+     "praesens": [
+      {
+       "forma": "hilft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "half"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geholfen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "kennen",
+   "klucz": "kennen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 13
+   },
+   "tabela": {
+    "infinitiv": "kennen",
+    "praesens": "kennt",
+    "praeteritum": "kannte",
+    "perfekt": "hat gekannt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "kennen",
+     "praesens": [
+      {
+       "forma": "kennt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "kannte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gekannt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "klingen",
+   "klucz": "klingen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 14
+   },
+   "tabela": {
+    "infinitiv": "klingen",
+    "praesens": "klingt",
+    "praeteritum": "klang",
+    "perfekt": "hat geklungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "klingen",
+     "praesens": [
+      {
+       "forma": "klingt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "klang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geklungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "kommen",
+   "klucz": "kommen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 15
+   },
+   "tabela": {
+    "infinitiv": "kommen",
+    "praesens": "kommt",
+    "praeteritum": "kam",
+    "perfekt": "ist gekommen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "kommen",
+     "praesens": [
+      {
+       "forma": "kommt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "kam"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gekommen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "kriechen",
+   "klucz": "kriechen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 16
+   },
+   "tabela": {
+    "infinitiv": "kriechen",
+    "praesens": "kriecht",
+    "praeteritum": "kroch",
+    "perfekt": "ist gekrochen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "kriechen",
+     "praesens": [
+      {
+       "forma": "kriecht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "kroch"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gekrochen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "laden",
+   "klucz": "laden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 17
+   },
+   "tabela": {
+    "infinitiv": "laden",
+    "praesens": "lädt",
+    "praeteritum": "lud",
+    "perfekt": "hat geladen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "laden",
+     "praesens": [
+      {
+       "forma": "lädt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "lud"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geladen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "lassen",
+   "klucz": "lassen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 18
+   },
+   "tabela": {
+    "infinitiv": "lassen",
+    "praesens": "lässt",
+    "praeteritum": "ließ",
+    "perfekt": "hat gelassen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "lassen",
+     "praesens": [
+      {
+       "forma": "lässt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "ließ"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gelassen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "laufen",
+   "klucz": "laufen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 19
+   },
+   "tabela": {
+    "infinitiv": "laufen",
+    "praesens": "läuft",
+    "praeteritum": "lief",
+    "perfekt": "ist gelaufen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "laufen",
+     "praesens": [
+      {
+       "forma": "läuft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "lief"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gelaufen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "leiden",
+   "klucz": "leiden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 20
+   },
+   "tabela": {
+    "infinitiv": "leiden",
+    "praesens": "leidet",
+    "praeteritum": "litt",
+    "perfekt": "hat gelitten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "leiden",
+     "praesens": [
+      {
+       "forma": "leidet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "litt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gelitten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "leihen",
+   "klucz": "leihen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 21
+   },
+   "tabela": {
+    "infinitiv": "leihen",
+    "praesens": "leiht",
+    "praeteritum": "lieh",
+    "perfekt": "hat geliehen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "leihen",
+     "praesens": [
+      {
+       "forma": "leiht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "lieh"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geliehen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "lesen",
+   "klucz": "lesen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 22
+   },
+   "tabela": {
+    "infinitiv": "lesen",
+    "praesens": "liest",
+    "praeteritum": "las",
+    "perfekt": "hat gelesen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "lesen",
+     "praesens": [
+      {
+       "forma": "liest"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "las"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gelesen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "liegen",
+   "klucz": "liegen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 23
+   },
+   "tabela": {
+    "infinitiv": "liegen",
+    "praesens": "liegt",
+    "praeteritum": "lag",
+    "perfekt": "hat gelegen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "liegen",
+     "praesens": [
+      {
+       "forma": "liegt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "lag"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gelegen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "luegen",
+   "klucz": "lügen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 24
+   },
+   "tabela": {
+    "infinitiv": "lügen",
+    "praesens": "lügt",
+    "praeteritum": "log",
+    "perfekt": "hat gelogen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "lügen",
+     "praesens": [
+      {
+       "forma": "lügt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "log"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gelogen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "meiden",
+   "klucz": "meiden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 25
+   },
+   "tabela": {
+    "infinitiv": "meiden",
+    "praesens": "meidet",
+    "praeteritum": "mied",
+    "perfekt": "hat gemieden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "meiden",
+     "praesens": [
+      {
+       "forma": "meidet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "mied"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gemieden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "moegen",
+   "klucz": "mögen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 26
+   },
+   "tabela": {
+    "infinitiv": "mögen",
+    "praesens": "mag",
+    "praeteritum": "mochte",
+    "perfekt": "hat gemocht"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "mögen",
+     "praesens": [
+      {
+       "forma": "mag"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "mochte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gemocht"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23",
+    "pozycje": [
+     3
+    ]
+   }
+  },
+  {
+   "id": "nehmen",
+   "klucz": "nehmen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 27
+   },
+   "tabela": {
+    "infinitiv": "nehmen",
+    "praesens": "nimmt",
+    "praeteritum": "nahm",
+    "perfekt": "hat genommen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "nehmen",
+     "praesens": [
+      {
+       "forma": "nimmt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "nahm"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat genommen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "nennen",
+   "klucz": "nennen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 28
+   },
+   "tabela": {
+    "infinitiv": "nennen",
+    "praesens": "nennt",
+    "praeteritum": "nannte",
+    "perfekt": "hat genannt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "nennen",
+     "praesens": [
+      {
+       "forma": "nennt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "nannte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat genannt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "raten",
+   "klucz": "raten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 29
+   },
+   "tabela": {
+    "infinitiv": "raten",
+    "praesens": "rät",
+    "praeteritum": "riet",
+    "perfekt": "hat geraten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "raten",
+     "praesens": [
+      {
+       "forma": "rät"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "riet"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geraten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "reiben",
+   "klucz": "reiben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 30
+   },
+   "tabela": {
+    "infinitiv": "reiben",
+    "praesens": "reibt",
+    "praeteritum": "rieb",
+    "perfekt": "hat gerieben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "reiben",
+     "praesens": [
+      {
+       "forma": "reibt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "rieb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gerieben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "reissen",
+   "klucz": "reißen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 31
+   },
+   "tabela": {
+    "infinitiv": "reißen",
+    "praesens": "reißt",
+    "praeteritum": "riss",
+    "perfekt": "hat/ist gerissen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "reißen",
+     "praesens": [
+      {
+       "forma": "reißt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "riss"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gerissen"
+      },
+      {
+       "forma": "ist gerissen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "reiten",
+   "klucz": "reiten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 32
+   },
+   "tabela": {
+    "infinitiv": "reiten",
+    "praesens": "reitet",
+    "praeteritum": "ritt",
+    "perfekt": "ist geritten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "reiten",
+     "praesens": [
+      {
+       "forma": "reitet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "ritt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geritten"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23",
+    "pozycje": [
+     4
+    ]
+   }
+  },
+  {
+   "id": "rennen",
+   "klucz": "rennen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 33
+   },
+   "tabela": {
+    "infinitiv": "rennen",
+    "praesens": "rennt",
+    "praeteritum": "rannte",
+    "perfekt": "ist gerannt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "rennen",
+     "praesens": [
+      {
+       "forma": "rennt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "rannte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gerannt"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "riechen",
+   "klucz": "riechen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 34
+   },
+   "tabela": {
+    "infinitiv": "riechen",
+    "praesens": "riecht",
+    "praeteritum": "roch",
+    "perfekt": "hat gerochen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "riechen",
+     "praesens": [
+      {
+       "forma": "riecht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "roch"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gerochen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "ringen",
+   "klucz": "ringen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 35
+   },
+   "tabela": {
+    "infinitiv": "ringen",
+    "praesens": "ringt",
+    "praeteritum": "rang",
+    "perfekt": "hat gerungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "ringen",
+     "praesens": [
+      {
+       "forma": "ringt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "rang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gerungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "rufen",
+   "klucz": "rufen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 36
+   },
+   "tabela": {
+    "infinitiv": "rufen",
+    "praesens": "ruft",
+    "praeteritum": "rief",
+    "perfekt": "hat gerufen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "rufen",
+     "praesens": [
+      {
+       "forma": "ruft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "rief"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gerufen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schaffen",
+   "klucz": "schaffen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 37
+   },
+   "tabela": {
+    "infinitiv": "schaffen",
+    "praesens": "schafft",
+    "praeteritum": "schuf (ein Kunstwerk)\nschaffte (einen Rekord)",
+    "perfekt": "hat geschaffen\nhat geschafft"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "ein Kunstwerk"
+     ],
+     "infinitiv": "schaffen",
+     "praesens": [
+      {
+       "forma": "schafft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schuf"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschaffen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    },
+    {
+     "uwagi": [
+      "einen Rekord"
+     ],
+     "infinitiv": "schaffen",
+     "praesens": [
+      {
+       "forma": "schafft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schaffte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschafft"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "scheinen",
+   "klucz": "scheinen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 38
+   },
+   "tabela": {
+    "infinitiv": "scheinen",
+    "praesens": "scheint",
+    "praeteritum": "schien",
+    "perfekt": "hat geschienen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "scheinen",
+     "praesens": [
+      {
+       "forma": "scheint"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schien"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschienen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schieben",
+   "klucz": "schieben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 39
+   },
+   "tabela": {
+    "infinitiv": "schieben",
+    "praesens": "schiebt",
+    "praeteritum": "schob",
+    "perfekt": "hat geschoben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schieben",
+     "praesens": [
+      {
+       "forma": "schiebt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schob"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschoben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schlafen",
+   "klucz": "schlafen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 40
+   },
+   "tabela": {
+    "infinitiv": "schlafen",
+    "praesens": "schläft",
+    "praeteritum": "schlief",
+    "perfekt": "hat geschlafen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schlafen",
+     "praesens": [
+      {
+       "forma": "schläft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schlief"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschlafen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schlagen",
+   "klucz": "schlagen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 2,
+    "strona_ksiazki": 262,
+    "wiersz": 41
+   },
+   "tabela": {
+    "infinitiv": "schlagen",
+    "praesens": "schlägt",
+    "praeteritum": "schlug",
+    "perfekt": "hat geschlagen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schlagen",
+     "praesens": [
+      {
+       "forma": "schlägt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schlug"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschlagen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schleichen",
+   "klucz": "schleichen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 1
+   },
+   "tabela": {
+    "infinitiv": "schleichen",
+    "praesens": "schleicht",
+    "praeteritum": "schlich",
+    "perfekt": "ist geschlichen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schleichen",
+     "praesens": [
+      {
+       "forma": "schleicht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schlich"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geschlichen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schleifen",
+   "klucz": "schleifen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 2
+   },
+   "tabela": {
+    "infinitiv": "schleifen",
+    "praesens": "schleift",
+    "praeteritum": "schliff",
+    "perfekt": "hat geschliffen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schleifen",
+     "praesens": [
+      {
+       "forma": "schleift"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schliff"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschliffen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schliessen",
+   "klucz": "schließen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 3
+   },
+   "tabela": {
+    "infinitiv": "schließen",
+    "praesens": "schließt",
+    "praeteritum": "schloss",
+    "perfekt": "hat geschlossen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schließen",
+     "praesens": [
+      {
+       "forma": "schließt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schloss"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschlossen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23",
+    "pozycje": [
+     2
+    ]
+   }
+  },
+  {
+   "id": "schlingen",
+   "klucz": "schlingen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 4
+   },
+   "tabela": {
+    "infinitiv": "schlingen",
+    "praesens": "schlingt",
+    "praeteritum": "schlang",
+    "perfekt": "hat geschlungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schlingen",
+     "praesens": [
+      {
+       "forma": "schlingt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schlang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschlungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schmeissen",
+   "klucz": "schmeißen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 5
+   },
+   "tabela": {
+    "infinitiv": "schmeißen",
+    "praesens": "schmeißt",
+    "praeteritum": "schmiss",
+    "perfekt": "hat geschmissen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schmeißen",
+     "praesens": [
+      {
+       "forma": "schmeißt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schmiss"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschmissen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schmelzen",
+   "klucz": "schmelzen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 6
+   },
+   "tabela": {
+    "infinitiv": "schmelzen",
+    "praesens": "schmilzt",
+    "praeteritum": "schmolz",
+    "perfekt": "hat/ist geschmolzen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schmelzen",
+     "praesens": [
+      {
+       "forma": "schmilzt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schmolz"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschmolzen"
+      },
+      {
+       "forma": "ist geschmolzen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schneiden",
+   "klucz": "schneiden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 7
+   },
+   "tabela": {
+    "infinitiv": "schneiden",
+    "praesens": "schneidet",
+    "praeteritum": "schnitt",
+    "perfekt": "hat geschnitten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schneiden",
+     "praesens": [
+      {
+       "forma": "schneidet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schnitt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschnitten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schreiben",
+   "klucz": "schreiben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 8
+   },
+   "tabela": {
+    "infinitiv": "schreiben",
+    "praesens": "schreibt",
+    "praeteritum": "schrieb",
+    "perfekt": "hat geschrieben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schreiben",
+     "praesens": [
+      {
+       "forma": "schreibt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schrieb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschrieben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schreien",
+   "klucz": "schreien",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 9
+   },
+   "tabela": {
+    "infinitiv": "schreien",
+    "praesens": "schreit",
+    "praeteritum": "schrie",
+    "perfekt": "hat geschrien"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schreien",
+     "praesens": [
+      {
+       "forma": "schreit"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schrie"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschrien"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schreiten",
+   "klucz": "schreiten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 10
+   },
+   "tabela": {
+    "infinitiv": "schreiten",
+    "praesens": "schreitet",
+    "praeteritum": "schritt",
+    "perfekt": "ist geschritten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schreiten",
+     "praesens": [
+      {
+       "forma": "schreitet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schritt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geschritten"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schweigen",
+   "klucz": "schweigen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 11
+   },
+   "tabela": {
+    "infinitiv": "schweigen",
+    "praesens": "schweigt",
+    "praeteritum": "schwieg",
+    "perfekt": "hat geschwiegen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schweigen",
+     "praesens": [
+      {
+       "forma": "schweigt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schwieg"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschwiegen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schwellen",
+   "klucz": "schwellen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 12
+   },
+   "tabela": {
+    "infinitiv": "schwellen",
+    "praesens": "schwillt",
+    "praeteritum": "schwoll",
+    "perfekt": "ist geschwollen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schwellen",
+     "praesens": [
+      {
+       "forma": "schwillt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schwoll"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geschwollen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schwimmen",
+   "klucz": "schwimmen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 13
+   },
+   "tabela": {
+    "infinitiv": "schwimmen",
+    "praesens": "schwimmt",
+    "praeteritum": "schwamm",
+    "perfekt": "hat/ist geschwommen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schwimmen",
+     "praesens": [
+      {
+       "forma": "schwimmt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schwamm"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschwommen"
+      },
+      {
+       "forma": "ist geschwommen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schwingen",
+   "klucz": "schwingen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 14
+   },
+   "tabela": {
+    "infinitiv": "schwingen",
+    "praesens": "schwingt",
+    "praeteritum": "schwang",
+    "perfekt": "hat/ist geschwungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schwingen",
+     "praesens": [
+      {
+       "forma": "schwingt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schwang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschwungen"
+      },
+      {
+       "forma": "ist geschwungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "schwoeren",
+   "klucz": "schwören",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 15
+   },
+   "tabela": {
+    "infinitiv": "schwören",
+    "praesens": "schwört",
+    "praeteritum": "schwor",
+    "perfekt": "hat geschworen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "schwören",
+     "praesens": [
+      {
+       "forma": "schwört"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "schwor"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geschworen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sehen",
+   "klucz": "sehen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 16
+   },
+   "tabela": {
+    "infinitiv": "sehen",
+    "praesens": "sieht",
+    "praeteritum": "sah",
+    "perfekt": "hat gesehen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sehen",
+     "praesens": [
+      {
+       "forma": "sieht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sah"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesehen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "senden",
+   "klucz": "senden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 17
+   },
+   "tabela": {
+    "infinitiv": "senden",
+    "praesens": "sendet",
+    "praeteritum": "sandte/sendete (einen Brief)\nsendete (eine Fernsehsendung)",
+    "perfekt": "hat gesandt/gesendet\nhat gesendet"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "einen Brief"
+     ],
+     "infinitiv": "senden",
+     "praesens": [
+      {
+       "forma": "sendet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sandte"
+      },
+      {
+       "forma": "sendete"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesandt"
+      },
+      {
+       "forma": "hat gesendet"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    },
+    {
+     "uwagi": [
+      "eine Fernsehsendung"
+     ],
+     "infinitiv": "senden",
+     "praesens": [
+      {
+       "forma": "sendet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sendete"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesendet"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "singen",
+   "klucz": "singen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 18
+   },
+   "tabela": {
+    "infinitiv": "singen",
+    "praesens": "singt",
+    "praeteritum": "sang",
+    "perfekt": "hat gesungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "singen",
+     "praesens": [
+      {
+       "forma": "singt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sinken",
+   "klucz": "sinken",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 19
+   },
+   "tabela": {
+    "infinitiv": "sinken",
+    "praesens": "sinkt",
+    "praeteritum": "sank",
+    "perfekt": "ist gesunken"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sinken",
+     "praesens": [
+      {
+       "forma": "sinkt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sank"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gesunken"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sitzen",
+   "klucz": "sitzen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 20
+   },
+   "tabela": {
+    "infinitiv": "sitzen",
+    "praesens": "sitzt",
+    "praeteritum": "saß",
+    "perfekt": "hat gesessen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sitzen",
+     "praesens": [
+      {
+       "forma": "sitzt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "saß"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesessen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "spinnen",
+   "klucz": "spinnen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 21
+   },
+   "tabela": {
+    "infinitiv": "spinnen",
+    "praesens": "spinnt",
+    "praeteritum": "spann",
+    "perfekt": "hat gesponnen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "spinnen",
+     "praesens": [
+      {
+       "forma": "spinnt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "spann"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesponnen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sprechen",
+   "klucz": "sprechen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 22
+   },
+   "tabela": {
+    "infinitiv": "sprechen",
+    "praesens": "spricht",
+    "praeteritum": "sprach",
+    "perfekt": "hat gesprochen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sprechen",
+     "praesens": [
+      {
+       "forma": "spricht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sprach"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesprochen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "springen",
+   "klucz": "springen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 23
+   },
+   "tabela": {
+    "infinitiv": "springen",
+    "praesens": "springt",
+    "praeteritum": "sprang",
+    "perfekt": "ist/hat gesprungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "springen",
+     "praesens": [
+      {
+       "forma": "springt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sprang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gesprungen"
+      },
+      {
+       "forma": "hat gesprungen"
+      }
+     ],
+     "pomocniczy": [
+      "ist",
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "stechen",
+   "klucz": "stechen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 24
+   },
+   "tabela": {
+    "infinitiv": "stechen",
+    "praesens": "sticht",
+    "praeteritum": "stach",
+    "perfekt": "hat gestochen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "stechen",
+     "praesens": [
+      {
+       "forma": "sticht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "stach"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gestochen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "stehen",
+   "klucz": "stehen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 25
+   },
+   "tabela": {
+    "infinitiv": "stehen",
+    "praesens": "steht",
+    "praeteritum": "stand",
+    "perfekt": "hat gestanden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "stehen",
+     "praesens": [
+      {
+       "forma": "steht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "stand"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gestanden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "stehlen",
+   "klucz": "stehlen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 26
+   },
+   "tabela": {
+    "infinitiv": "stehlen",
+    "praesens": "stiehlt",
+    "praeteritum": "stahl",
+    "perfekt": "hat gestohlen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "stehlen",
+     "praesens": [
+      {
+       "forma": "stiehlt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "stahl"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gestohlen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "steigen",
+   "klucz": "steigen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 27
+   },
+   "tabela": {
+    "infinitiv": "steigen",
+    "praesens": "steigt",
+    "praeteritum": "stieg",
+    "perfekt": "ist gestiegen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "steigen",
+     "praesens": [
+      {
+       "forma": "steigt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "stieg"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gestiegen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sterben",
+   "klucz": "sterben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 28
+   },
+   "tabela": {
+    "infinitiv": "sterben",
+    "praesens": "stirbt",
+    "praeteritum": "starb",
+    "perfekt": "ist gestorben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sterben",
+     "praesens": [
+      {
+       "forma": "stirbt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "starb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gestorben"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "stossen",
+   "klucz": "stoßen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 29
+   },
+   "tabela": {
+    "infinitiv": "stoßen",
+    "praesens": "stößt",
+    "praeteritum": "stieß",
+    "perfekt": "ist/hat gestoßen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "stoßen",
+     "praesens": [
+      {
+       "forma": "stößt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "stieß"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gestoßen"
+      },
+      {
+       "forma": "hat gestoßen"
+      }
+     ],
+     "pomocniczy": [
+      "ist",
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "streichen",
+   "klucz": "streichen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 30
+   },
+   "tabela": {
+    "infinitiv": "streichen",
+    "praesens": "streicht",
+    "praeteritum": "strich",
+    "perfekt": "hat gestrichen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "streichen",
+     "praesens": [
+      {
+       "forma": "streicht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "strich"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gestrichen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "streiten",
+   "klucz": "streiten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 31
+   },
+   "tabela": {
+    "infinitiv": "streiten",
+    "praesens": "streitet",
+    "praeteritum": "stritt",
+    "perfekt": "hat gestritten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "streiten",
+     "praesens": [
+      {
+       "forma": "streitet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "stritt"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gestritten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "tragen",
+   "klucz": "tragen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 32
+   },
+   "tabela": {
+    "infinitiv": "tragen",
+    "praesens": "trägt",
+    "praeteritum": "trug",
+    "perfekt": "hat getragen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "tragen",
+     "praesens": [
+      {
+       "forma": "trägt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "trug"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat getragen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "treffen",
+   "klucz": "treffen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 33
+   },
+   "tabela": {
+    "infinitiv": "treffen",
+    "praesens": "trifft",
+    "praeteritum": "traf",
+    "perfekt": "hat getroffen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "treffen",
+     "praesens": [
+      {
+       "forma": "trifft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "traf"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat getroffen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "treiben",
+   "klucz": "treiben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 34
+   },
+   "tabela": {
+    "infinitiv": "treiben",
+    "praesens": "treibt",
+    "praeteritum": "trieb",
+    "perfekt": "hat getrieben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "treiben",
+     "praesens": [
+      {
+       "forma": "treibt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "trieb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat getrieben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "treten",
+   "klucz": "treten",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 35
+   },
+   "tabela": {
+    "infinitiv": "treten",
+    "praesens": "tritt",
+    "praeteritum": "trat",
+    "perfekt": "hat getreten"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "treten",
+     "praesens": [
+      {
+       "forma": "tritt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "trat"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat getreten"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23",
+    "pozycje": [
+     4
+    ]
+   }
+  },
+  {
+   "id": "trinken",
+   "klucz": "trinken",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 36
+   },
+   "tabela": {
+    "infinitiv": "trinken",
+    "praesens": "trinkt",
+    "praeteritum": "trank",
+    "perfekt": "hat getrunken"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "trinken",
+     "praesens": [
+      {
+       "forma": "trinkt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "trank"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat getrunken"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "tun",
+   "klucz": "tun",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 37
+   },
+   "tabela": {
+    "infinitiv": "tun",
+    "praesens": "tut",
+    "praeteritum": "tat",
+    "perfekt": "hat getan"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "tun",
+     "praesens": [
+      {
+       "forma": "tut"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "tat"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat getan"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "ueberwinden",
+   "klucz": "überwinden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 38
+   },
+   "tabela": {
+    "infinitiv": "überwinden",
+    "praesens": "überwindet",
+    "praeteritum": "überwand",
+    "perfekt": "hat überwunden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "überwinden",
+     "praesens": [
+      {
+       "forma": "überwindet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "überwand"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat überwunden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "unterscheiden",
+   "klucz": "unterscheiden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 39
+   },
+   "tabela": {
+    "infinitiv": "unterscheiden",
+    "praesens": "unterscheidet",
+    "praeteritum": "unterschied",
+    "perfekt": "hat unterschieden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "unterscheiden",
+     "praesens": [
+      {
+       "forma": "unterscheidet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "unterschied"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat unterschieden"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "verderben",
+   "klucz": "verderben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 40
+   },
+   "tabela": {
+    "infinitiv": "verderben",
+    "praesens": "verdirbt",
+    "praeteritum": "verdarb",
+    "perfekt": "ist/hat verdorben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "verderben",
+     "praesens": [
+      {
+       "forma": "verdirbt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "verdarb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist verdorben"
+      },
+      {
+       "forma": "hat verdorben"
+      }
+     ],
+     "pomocniczy": [
+      "ist",
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "vergessen",
+   "klucz": "vergessen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 41
+   },
+   "tabela": {
+    "infinitiv": "vergessen",
+    "praesens": "vergisst",
+    "praeteritum": "vergaß",
+    "perfekt": "hat vergessen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "vergessen",
+     "praesens": [
+      {
+       "forma": "vergisst"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "vergaß"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat vergessen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "verlieren",
+   "klucz": "verlieren",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 42
+   },
+   "tabela": {
+    "infinitiv": "verlieren",
+    "praesens": "verliert",
+    "praeteritum": "verlor",
+    "perfekt": "hat verloren"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "verlieren",
+     "praesens": [
+      {
+       "forma": "verliert"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "verlor"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat verloren"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "verschwinden",
+   "klucz": "verschwinden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 43
+   },
+   "tabela": {
+    "infinitiv": "verschwinden",
+    "praesens": "verschwindet",
+    "praeteritum": "verschwand",
+    "perfekt": "ist verschwunden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "verschwinden",
+     "praesens": [
+      {
+       "forma": "verschwindet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "verschwand"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist verschwunden"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "verzeihen",
+   "klucz": "verzeihen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 3,
+    "strona_ksiazki": 263,
+    "wiersz": 44
+   },
+   "tabela": {
+    "infinitiv": "verzeihen",
+    "praesens": "verzeiht",
+    "praeteritum": "verzieh",
+    "perfekt": "hat verziehen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "verzeihen",
+     "praesens": [
+      {
+       "forma": "verzeiht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "verzieh"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat verziehen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "wachsen",
+   "klucz": "wachsen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 1
+   },
+   "tabela": {
+    "infinitiv": "wachsen",
+    "praesens": "wächst",
+    "praeteritum": "wuchs",
+    "perfekt": "ist gewachsen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "wachsen",
+     "praesens": [
+      {
+       "forma": "wächst"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wuchs"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gewachsen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "waschen",
+   "klucz": "waschen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 2
+   },
+   "tabela": {
+    "infinitiv": "waschen",
+    "praesens": "wäscht",
+    "praeteritum": "wusch",
+    "perfekt": "hat gewaschen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "waschen",
+     "praesens": [
+      {
+       "forma": "wäscht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wusch"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewaschen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "weichen",
+   "klucz": "weichen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 3
+   },
+   "tabela": {
+    "infinitiv": "weichen",
+    "praesens": "weicht",
+    "praeteritum": "wich",
+    "perfekt": "ist gewichen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "weichen",
+     "praesens": [
+      {
+       "forma": "weicht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wich"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gewichen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "weisen",
+   "klucz": "weisen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 4
+   },
+   "tabela": {
+    "infinitiv": "weisen",
+    "praesens": "weist",
+    "praeteritum": "wies",
+    "perfekt": "hat gewiesen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "weisen",
+     "praesens": [
+      {
+       "forma": "weist"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wies"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewiesen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sich-wenden-wenden",
+   "klucz": "sich wenden / wenden",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 5
+   },
+   "tabela": {
+    "infinitiv": "sich wenden\nwenden",
+    "praesens": "wendet sich\nwendet",
+    "praeteritum": "wandte sich (an jemanden)\nwendete (das Auto)",
+    "perfekt": "hat sich gewandt\nhat gewendet"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "an jemanden"
+     ],
+     "infinitiv": "sich wenden",
+     "praesens": [
+      {
+       "forma": "wendet sich"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wandte sich"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat sich gewandt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    },
+    {
+     "uwagi": [
+      "das Auto"
+     ],
+     "infinitiv": "wenden",
+     "praesens": [
+      {
+       "forma": "wendet"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wendete"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewendet"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "werben",
+   "klucz": "werben",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 6
+   },
+   "tabela": {
+    "infinitiv": "werben",
+    "praesens": "wirbt",
+    "praeteritum": "warb",
+    "perfekt": "hat geworben"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "werben",
+     "praesens": [
+      {
+       "forma": "wirbt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "warb"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geworben"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "werfen",
+   "klucz": "werfen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 7
+   },
+   "tabela": {
+    "infinitiv": "werfen",
+    "praesens": "wirft",
+    "praeteritum": "warf",
+    "perfekt": "hat geworfen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "werfen",
+     "praesens": [
+      {
+       "forma": "wirft"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "warf"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat geworfen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "wiegen",
+   "klucz": "wiegen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 8
+   },
+   "tabela": {
+    "infinitiv": "wiegen",
+    "praesens": "wiegt",
+    "praeteritum": "wiegte (ein Baby)\nwog (das Gewicht)",
+    "perfekt": "hat gewiegt\nhat gewogen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [
+      "ein Baby"
+     ],
+     "infinitiv": "wiegen",
+     "praesens": [
+      {
+       "forma": "wiegt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wiegte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewiegt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    },
+    {
+     "uwagi": [
+      "das Gewicht"
+     ],
+     "infinitiv": "wiegen",
+     "praesens": [
+      {
+       "forma": "wiegt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wog"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewogen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "wissen",
+   "klucz": "wissen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 9
+   },
+   "tabela": {
+    "infinitiv": "wissen",
+    "praesens": "weiß",
+    "praeteritum": "wusste",
+    "perfekt": "hat gewusst"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "wissen",
+     "praesens": [
+      {
+       "forma": "weiß"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wusste"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewusst"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "ziehen",
+   "klucz": "ziehen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 10
+   },
+   "tabela": {
+    "infinitiv": "ziehen",
+    "praesens": "zieht",
+    "praeteritum": "zog",
+    "perfekt": "hat/ist gezogen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "ziehen",
+     "praesens": [
+      {
+       "forma": "zieht"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "zog"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gezogen"
+      },
+      {
+       "forma": "ist gezogen"
+      }
+     ],
+     "pomocniczy": [
+      "hat",
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "zwingen",
+   "klucz": "zwingen",
+   "podgrupy": [
+    "glowna"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 11
+   },
+   "tabela": {
+    "infinitiv": "zwingen",
+    "praesens": "zwingt",
+    "praeteritum": "zwang",
+    "perfekt": "hat gezwungen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "zwingen",
+     "praesens": [
+      {
+       "forma": "zwingt"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "zwang"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gezwungen"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "haben",
+   "klucz": "haben",
+   "podgrupy": [
+    "hilfsverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 12
+   },
+   "tabela": {
+    "infinitiv": "haben",
+    "praesens": "hat",
+    "praeteritum": "hatte",
+    "perfekt": "hat gehabt"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "haben",
+     "praesens": [
+      {
+       "forma": "hat"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "hatte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gehabt"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sein",
+   "klucz": "sein",
+   "podgrupy": [
+    "hilfsverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 13
+   },
+   "tabela": {
+    "infinitiv": "sein",
+    "praesens": "ist",
+    "praeteritum": "war",
+    "perfekt": "ist gewesen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sein",
+     "praesens": [
+      {
+       "forma": "ist"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "war"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist gewesen"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "werden",
+   "klucz": "werden",
+   "podgrupy": [
+    "hilfsverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 14
+   },
+   "tabela": {
+    "infinitiv": "werden",
+    "praesens": "wird",
+    "praeteritum": "wurde",
+    "perfekt": "ist geworden"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "werden",
+     "praesens": [
+      {
+       "forma": "wird"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wurde"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "ist geworden"
+      }
+     ],
+     "pomocniczy": [
+      "ist"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "duerfen",
+   "klucz": "dürfen",
+   "podgrupy": [
+    "modalverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 15
+   },
+   "tabela": {
+    "infinitiv": "dürfen",
+    "praesens": "darf",
+    "praeteritum": "durfte",
+    "perfekt": "hat gedurft / hat … dürfen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "dürfen",
+     "praesens": [
+      {
+       "forma": "darf"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "durfte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gedurft"
+      },
+      {
+       "forma": "hat … dürfen",
+       "dodatkowa": true,
+       "uwaga": "forma z bezokolicznikiem innego czasownika, np. „hat kommen dürfen”"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "koennen",
+   "klucz": "können",
+   "podgrupy": [
+    "modalverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 16
+   },
+   "tabela": {
+    "infinitiv": "können",
+    "praesens": "kann",
+    "praeteritum": "konnte",
+    "perfekt": "hat gekonnt / hat … können"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "können",
+     "praesens": [
+      {
+       "forma": "kann"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "konnte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gekonnt"
+      },
+      {
+       "forma": "hat … können",
+       "dodatkowa": true,
+       "uwaga": "forma z bezokolicznikiem innego czasownika, np. „hat kommen dürfen”"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "muessen",
+   "klucz": "müssen",
+   "podgrupy": [
+    "modalverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 17
+   },
+   "tabela": {
+    "infinitiv": "müssen",
+    "praesens": "muss",
+    "praeteritum": "musste",
+    "perfekt": "hat gemusst / hat … müssen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "müssen",
+     "praesens": [
+      {
+       "forma": "muss"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "musste"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gemusst"
+      },
+      {
+       "forma": "hat … müssen",
+       "dodatkowa": true,
+       "uwaga": "forma z bezokolicznikiem innego czasownika, np. „hat kommen dürfen”"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "sollen",
+   "klucz": "sollen",
+   "podgrupy": [
+    "modalverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 18
+   },
+   "tabela": {
+    "infinitiv": "sollen",
+    "praesens": "soll",
+    "praeteritum": "sollte",
+    "perfekt": "hat gesollt / hat … sollen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "sollen",
+     "praesens": [
+      {
+       "forma": "soll"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "sollte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gesollt"
+      },
+      {
+       "forma": "hat … sollen",
+       "dodatkowa": true,
+       "uwaga": "forma z bezokolicznikiem innego czasownika, np. „hat kommen dürfen”"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  },
+  {
+   "id": "wollen",
+   "klucz": "wollen",
+   "podgrupy": [
+    "modalverben"
+   ],
+   "zrodlo": {
+    "strona_pdf": 4,
+    "strona_ksiazki": 264,
+    "wiersz": 19
+   },
+   "tabela": {
+    "infinitiv": "wollen",
+    "praesens": "will",
+    "praeteritum": "wollte",
+    "perfekt": "hat gewollt / hat … wollen"
+   },
+   "znaczenia": [
+    {
+     "uwagi": [],
+     "infinitiv": "wollen",
+     "praesens": [
+      {
+       "forma": "will"
+      }
+     ],
+     "praeteritum": [
+      {
+       "forma": "wollte"
+      }
+     ],
+     "perfekt": [
+      {
+       "forma": "hat gewollt"
+      },
+      {
+       "forma": "hat … wollen",
+       "dodatkowa": true,
+       "uwaga": "forma z bezokolicznikiem innego czasownika, np. „hat kommen dürfen”"
+      }
+     ],
+     "pomocniczy": [
+      "hat"
+     ]
+    }
+   ],
+   "tlumaczenia": [],
+   "weryfikacja": {
+    "status": "zaakceptowane",
+    "data": "2026-10-23"
+   }
+  }
+ ],
+ "do_sprawdzenia": [
+  {
+   "id": 1,
+   "klucz": "erschrecken",
+   "strona_pdf": 1,
+   "strona_ksiazki": 261,
+   "pole": "praesens",
+   "odczyt": "erschreckt",
+   "opis": "W znaczeniu „sich selbst” (erschrak, ist erschrocken) słowniki podają „erschrickt”; tabela ma tylko „erschreckt”, które pasuje do znaczenia „eine andere Person”.",
+   "rodzaj": "wiedza",
+   "propozycja": "zostawiam jak w tabeli; jeśli chcesz, dodam „erschrickt” jako akceptowany wariant oznaczony „spoza tabeli”.",
+   "status": "zamkniete",
+   "decyzja": "zostaje jak w tabeli (dane zaakceptowane 23.10.2026)"
+  },
+  {
+   "id": 2,
+   "klucz": "schließen",
+   "strona_pdf": 3,
+   "strona_ksiazki": 263,
+   "pole": "praeteritum",
+   "odczyt": "schloss",
+   "opis": "Końcówka słowa leży pod znakiem wodnym. Nie widać laski litery ß, a cała tabela używa nowej pisowni (biss, floss, riss), więc odczytałem „ss”.",
+   "rodzaj": "znak_wodny",
+   "propozycja": "schloss.",
+   "status": "zamkniete",
+   "decyzja": "zostaje jak w tabeli (dane zaakceptowane 23.10.2026)"
+  },
+  {
+   "id": 3,
+   "klucz": "mögen",
+   "strona_pdf": 2,
+   "strona_ksiazki": 262,
+   "pole": "sekcja",
+   "odczyt": "lista główna; Perfekt: hat gemocht",
+   "opis": "Tabela umieszcza „mögen” w liście głównej, nie w Modalverben, i podaje tylko „hat gemocht” (bez formy „hat … mögen”).",
+   "rodzaj": "struktura",
+   "propozycja": "zostawiam jak w tabeli (lista główna, jedna forma Perfekt).",
+   "status": "zamkniete",
+   "decyzja": "zostaje jak w tabeli (dane zaakceptowane 23.10.2026)"
+  },
+  {
+   "id": 4,
+   "klucz": "fliegen / reiten / treten",
+   "strona_pdf": 1,
+   "strona_ksiazki": "261–263",
+   "pole": "perfekt",
+   "odczyt": "ist geflogen; ist geritten; hat getreten",
+   "opis": "Tabela podaje jedno „hat”/„ist” tam, gdzie słowniki dopuszczają oba: fliegen (z dopełnieniem „hat geflogen”), reiten (też „hat geritten”), treten (w znaczeniu „wejść, nadepnąć” też „ist getreten”).",
+   "rodzaj": "wiedza",
+   "propozycja": "trzymam się tabeli: druga forma jest liczona jako błąd, dopóki nie zdecydujesz inaczej.",
+   "status": "zamkniete",
+   "decyzja": "zostaje jak w tabeli (dane zaakceptowane 23.10.2026)",
+   "klucze": [
+    "fliegen",
+    "reiten",
+    "treten"
+   ]
+  }
+ ]
+}
