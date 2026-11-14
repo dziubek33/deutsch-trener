@@ -1,7 +1,7 @@
 {
-  "name": "Deutsch-Trener",
-  "short_name": "Deutsch",
-  "description": "Trener niemieckich czasowników: fiszki, pisanie form, symulator kartkówki i gry.",
+  "name": "Poliglota",
+  "short_name": "Poliglota",
+  "description": "Poliglota: niemiecki i angielski do kartkówek i kolokwiów: słówka, zadania, teksty, plan dnia i próbne kolokwia.",
   "lang": "pl",
   "start_url": "./",
   "scope": "./",

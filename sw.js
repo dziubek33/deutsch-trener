@@ -1,7 +1,7 @@
 /* Deutsch-Trener: service worker wersji na telefon (PWA). Trzyma aplikację w pamięci telefonu, więc działa bez internetu.
    Wersję (skrót index.html) wstawia src/narzedzia/zbuduj.py, więc każda nowa paczka pobiera się sama
    przy następnym uruchomieniu z internetem. */
-const WERSJA = "deutsch-trener-4c03a69df3d9";
+const WERSJA = "deutsch-trener-180aa119254b";
 const PLIKI = ["./", "index.html", "manifest.webmanifest", "ikona-180.png", "ikona-192.png", "ikona-512.png", "ikona-maskowalna-512.png"];
 
 self.addEventListener("install", (e) => {
