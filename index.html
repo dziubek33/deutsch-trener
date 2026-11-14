@@ -3,7 +3,7 @@
 <html lang="pl" data-motyw="jasny">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-iOnlhh40/y2YpNnK9l6nMLIy659xupwRN6YhjPVt1gg=' 'sha256-m3/dMe395k0ThM6I0HFmVIjbG3KQLv9PXhrd2mri/O0='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; font-src 'self'; media-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-iOnlhh40/y2YpNnK9l6nMLIy659xupwRN6YhjPVt1gg=' 'sha256-GrsO4rcf0dkrorVFrCGh6ykQjVyXUL/rvF9UGPoc7fU='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; font-src 'self'; media-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="ikona-180.png">
@@ -2598,6 +2598,25 @@ var DT = typeof DT !== "undefined" ? DT : {};
     return stan;
   };
 
+  // Ustawienia startowe (projekt wbudowany albo plik projektu wczytany przez „Nowy projekt”): szablon kartkówki
+  // (nazwa, data, pytanie, pola, limit) i ustawienia oceny, powtórek, planu i sesji. Z pliku tylko proste wartości
+  // (tekst, liczba, tak/nie albo lista takich), bez obiektów.
+  D.zastosujUstawieniaStartowe = function (p, st) {
+    if (!st || typeof st !== "object") return;
+    var prosta = function (v) { return v === null || ["string", "number", "boolean"].indexOf(typeof v) >= 0; };
+    var dobra = function (v) { return prosta(v) || (Array.isArray(v) && v.every(prosta)); };
+    var sz = st.szablon || {};
+    ["nazwa", "data", "pytanie", "pola", "ukrytePola", "limitMin", "podgrupy"].forEach(function (k) {
+      if (sz[k] !== undefined && dobra(sz[k])) p.szablon[k] = U.klon(sz[k]);
+    });
+    ["ocena", "srs", "plan", "sesja"].forEach(function (grupa) {
+      var g = st[grupa];
+      if (!g || typeof g !== "object") return;
+      p.ustawienia[grupa] = p.ustawienia[grupa] || {};
+      for (var j in g) if (dobra(g[j])) p.ustawienia[grupa][j] = U.klon(g[j]);
+    });
+  };
+
   // Dodaje projekty wbudowane, których nie ma w stanie (np. po pierwszym uruchomieniu).
   D.uzupelnijWbudowane = function (stan, teraz) {
     // projekt zastąpiony przez nowszy (np. kartkówka przez kolokwium) nie jest dodawany od zera, gdy go jeszcze nie ma
@@ -2612,10 +2631,7 @@ var DT = typeof DT !== "undefined" ? DT : {};
       var st = w.ustawienia_startowe || {};
       // najpierw przejęty postęp (z ustawieniami oceniania poprzedniego projektu), potem ustawienia startowe nowego
       if (st.przejmijPostepZ) D.przejmijPostep(stan, p, st.przejmijPostepZ, teraz);
-      if (st.szablon) for (var k in st.szablon) p.szablon[k] = st.szablon[k];
-      ["ocena", "srs", "plan", "sesja"].forEach(function (grupa) {
-        if (st[grupa]) for (var j in st[grupa]) p.ustawienia[grupa][j] = U.klon(st[grupa][j]);
-      });
+      D.zastosujUstawieniaStartowe(p, st);
       p.wersjaUstawien = D.najnowszaWersjaUstawien(st);
       stan.projekty.push(p);
     });
@@ -8242,7 +8258,7 @@ var DT = typeof DT !== "undefined" ? DT : {};
     };
     return h("div.edytor-ai",
       h("div.etykieta.male", h("span", rodzaj === "d" ? "Definicja " : "Zdanie z luką ",
-        x.zrodlo === "AI" && !zatw ? h("span.znaczek-ai", "AI · do zatwierdzenia") : h("span.znaczek.opanowane", x.zrodlo === "ja" ? "Twoja wersja" : x.zrodlo === "AI" ? "zatwierdzone" : x.zrodlo === "zdjęcie" ? "ze zdjęcia" : "z podręcznika"))),
+        x.zrodlo === "AI" && !zatw ? h("span.znaczek-ai", "AI · do zatwierdzenia") : h("span.znaczek.opanowane", x.zrodlo === "ja" ? "Twoja wersja" : x.zrodlo === "AI" ? "zatwierdzone" : x.zrodlo === "zdjęcie" ? "ze zdjęcia" : x.zrodlo === "plik" ? "z Twojego pliku" : "z podręcznika"))),
       tekst, odp ? h("label.etykieta.male", "Słowo w luce (warianty po przecinku)", odp) : null,
       h("div.przyciski",
         x.zrodlo === "AI" && !zatw ? h("button.przycisk.glowny.maly", { type: "button", onclick: () => {
@@ -8782,6 +8798,8 @@ var DT = typeof DT !== "undefined" ? DT : {};
     if (!nazwa) return;
     const stan = DT.app.stan;
     const p = DT.dane.nowyProjekt({ nazwa, teraz: Date.now(), definicja: mat.plik || { karty: mat.karty, podgrupy: mat.podgrupy } });
+    // plik projektu może nieść ustawienia (data kolokwium, plan, ocena), jak projekty wbudowane
+    if (mat.plik && mat.plik.ustawienia_startowe) DT.dane.zastosujUstawieniaStartowe(p, mat.plik.ustawienia_startowe);
     stan.projekty.push(p);
     stan.aktywny = p.id;
     DT.app.zmieniono();
